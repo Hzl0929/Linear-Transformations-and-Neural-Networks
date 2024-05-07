@@ -293,7 +293,8 @@ def nn_model(X, Y, num_iterations=1000, print_cost=False):
 
 df = pd.read_csv(" ")#You can import your data here, with .csv format.
 
-"""The .csv data file will look like this:
+"""
+The .csv data file will look like this:
 	x1	x2	y
 0	-0.816777	-0.524620	-0.940299
 1	-0.670257	1.525658	0.754702
